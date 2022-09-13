@@ -69,3 +69,19 @@ section {
   width: 1100px;
   padding: 100px 0;
 }
+
+section::before {
+  background:
+    url("/src/assets/images/background.png")
+    cover
+    no-repeat;
+  opacity: 90%;
+}
+
+header::before {
+  background:
+    url("/src/assets/images/background.png")
+    cover
+    no-repeat;
+  opacity: 90%;
+}
