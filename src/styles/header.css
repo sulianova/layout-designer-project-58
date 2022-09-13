@@ -1,0 +1,24 @@
+header {
+  display: flex;
+  justify-content: center;
+}
+
+.header-image {
+  position: absolute;
+
+  top: 55px;
+  right: -270px;
+  z-index: -100;
+
+  height: 525px;
+}
+
+.header-title {
+  position: relative;
+
+  z-index: 100;
+}
+
+.pb-185 {
+    padding-bottom: 193px;
+  }

@@ -1,0 +1,64 @@
+.display-flex {
+  display: flex;
+}
+
+.flex-column {
+  flex-direction: column;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.position-relative {
+  position: relative;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.col-2 {
+  display: flex;
+}
+
+.col-2 > * {
+  width: calc(50% - 15px);
+}
+
+.primary-color {
+  color: var(--primary);
+}
+
+.bg-light {
+  background-color: var(--light);
+  z-index: -300;
+}
+
+.bg-symbols {
+  position: relative;
+}
+
+.bg-symbols::before {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+
+  z-index: -200;
+
+  background-image: url("../assets/images/background.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  opacity: 0.1;
+
+  content: "";
+}

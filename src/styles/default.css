@@ -1,0 +1,67 @@
+* {
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-weight: 400;
+  font-family: OpenSans;
+  src: url("/src/fonts/OpenSans-Regular.ttf");
+}
+
+@font-face {
+  font-weight: 700;
+  font-family: OpenSans;
+  src: url("/src/fonts/OpenSans-Bold.ttf");
+}
+
+@font-face {
+  font-weight: 400;
+  font-family: Neucha;
+  src: url("/src/fonts/Neucha-Regular.ttf");
+}
+
+html {
+  color: var(--dark);
+  font-size: 16px;
+  font-family: OpenSans, sans-serif;
+  line-height: 1.6em;
+  scroll-behavior: smooth;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3 {
+  font-weight: normal;
+  font-family: Neucha, serif;
+  line-height: 1.2em;
+}
+
+h1 {
+  font-size: 72px;
+}
+
+h2 {
+  font-size: 60px;
+}
+
+h3 {
+  font-size: 34px;
+}
+
+h4 {
+  font-size: 24px;
+}
+
+p + p {
+  padding-top: 0.9em;
+}
