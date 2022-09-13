@@ -28,6 +28,7 @@
 
 .col-2 {
   display: flex;
+  flex-wrap: wrap;
 }
 
 .col-2 > * {
