@@ -16,12 +16,13 @@
 
 .col-2 {
   display: flex;
-  flex-wrap: wrap;
   justify-content: space-between;
+
+  column-gap: 30px;
 }
 
 .col-2 > * {
-  width: calc(50% - 15px);
+  flex: 1 1 calc(50% - 15px);
 }
 
 .col-3 {
@@ -49,7 +50,7 @@
   margin-bottom: 193px;
 }
 
-.video-shadow {
+.shadow {
   filter: drop-shadow(0 16px 32px rgba(0 0 0 / 15%));
 }
 
@@ -60,4 +61,25 @@
 
 .video:last-child {
   margin-top: -200px;
+}
+
+.separator {
+  padding: 5px 10px;
+
+  background-color: var(--brown);
+}
+
+.separator h4 {
+  color: var(--white);
+}
+
+.image {
+  vertical-align: middle;
+}
+
+.birka {
+  font-family: Neucha, serif;
+  font-size: 24px;
+  color: var(--dark-50);
+  line-height: 1.2em;
 }

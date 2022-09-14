@@ -40,7 +40,8 @@ p {
 
 h1,
 h2,
-h3 {
+h3,
+h4 {
   font-weight: normal;
   font-family: Neucha, serif;
   line-height: 1.2em;
@@ -59,7 +60,9 @@ h3 {
 }
 
 h4 {
-  font-size: 24px;
+  font-family: OpenSans, sans-serif;
+  font-size: 14px;
+  font-weight: bold;
   text-transform: uppercase;
 }
 
@@ -70,4 +73,10 @@ p + p {
 a {
   color: var(--dark);
   text-decoration: none;
+}
+
+h2 + p {
+  font-family: Neucha, serif;
+  font-size: 34px;
+  line-height: 1.2em;
 }
