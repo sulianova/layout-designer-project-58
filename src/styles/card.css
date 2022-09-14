@@ -1,0 +1,36 @@
+.card {
+  padding: 24px;
+
+  overflow: hidden;
+
+  cursor: pointer;
+}
+
+.card-number {
+  margin-bottom: 40px;
+
+  font-size: 64px;
+  font-family: Neucha, sans-serif;
+  line-height: 1;
+}
+
+.card-title {
+  font-size: 52px;
+  color: var(--white);
+}
+
+
+.card > h3 {
+    color: var(--primary);
+}
+
+.card:hover,
+.card:focus,
+.card:hover h3,
+.card:focus h3 {
+  color: var(--white);
+  background-color: var(--primary);
+
+}
+
+

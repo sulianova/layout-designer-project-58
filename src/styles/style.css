@@ -3,8 +3,9 @@
 @import "./variables.css";
 @import "./header.css";
 @import "./btn.css";
+@import "./card.css";
 
-/** CSS STYLE **/
+/* elements */
 .content-container {
   position: relative;
 
@@ -16,10 +17,36 @@
 .col-2 {
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-between;
 }
 
 .col-2 > * {
   width: calc(50% - 15px);
+}
+
+.col-3 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+  row-gap: 20px;
+}
+
+.col-3 > * {
+  width: calc(33% - 15px);
+}
+
+.header-image {
+  position: absolute;
+
+  top: 55px;
+  right: -270px;
+
+  height: 525px;
+}
+
+.mb-193-header {
+  margin-bottom: 193px;
 }
 
 .video-shadow {
@@ -33,12 +60,4 @@
 
 .video:last-child {
   margin-top: -200px;
-}
-
-.mb-30 {
-  margin-bottom: 30px;
-}
-
-.text-center {
-  text-align: center;
 }

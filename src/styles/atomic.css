@@ -1,13 +1,10 @@
+/* box-model */
 .display-flex {
   display: flex;
 }
 
 .justify-center {
   justify-content: center;
-}
-
-.position-relative {
-  position: relative;
 }
 
 .overflow-hidden {
@@ -26,16 +23,34 @@
   align-items: center;
 }
 
-.primary-color {
-  color: var(--primary);
+/* position */
+.position-relative {
+  position: relative;
 }
 
 .z-100 {
   z-index: 100;
 }
 
+.mb-30 {
+  margin-bottom: 30px;
+}
+
+.pt-100 {
+  padding-top: 100px;
+}
+
+/* style */
+.primary-color {
+  color: var(--primary);
+}
+
 .bg-light {
   background-color: var(--light);
+}
+
+.bg-primary-dark {
+  background-color: var(--primary-dark);
 }
 
 .bg-symbols {
@@ -55,4 +70,9 @@
   opacity: 0.1;
 
   content: "";
+}
+
+/* typography */
+.text-center {
+  text-align: center;
 }
