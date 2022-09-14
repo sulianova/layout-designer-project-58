@@ -9,6 +9,15 @@
   position: relative;
 
   max-width: 1110px;
-  margin: 0 auto;
+  margin: 0;
   padding: 100px 0;
+}
+
+.col-2 {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.col-2 > * {
+  width: calc(50% - 15px);
 }
