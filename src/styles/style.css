@@ -78,8 +78,8 @@
 }
 
 .birka {
-  font-family: Neucha, serif;
-  font-size: 24px;
   color: var(--dark-50);
+  font-size: 24px;
+  font-family: Neucha, serif;
   line-height: 1.2em;
 }

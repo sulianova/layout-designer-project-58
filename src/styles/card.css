@@ -15,13 +15,12 @@
 }
 
 .card-title {
-  font-size: 52px;
   color: var(--white);
+  font-size: 52px;
 }
 
-
 .card > h3 {
-    color: var(--primary);
+  color: var(--primary);
 }
 
 .card:hover,
@@ -29,8 +28,6 @@
 .card:hover h3,
 .card:focus h3 {
   color: var(--white);
+
   background-color: var(--primary);
-
 }
-
-
