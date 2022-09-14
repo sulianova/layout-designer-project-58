@@ -21,3 +21,24 @@
 .col-2 > * {
   width: calc(50% - 15px);
 }
+
+.video-shadow {
+  filter: drop-shadow(0 16px 32px rgba(0 0 0 / 15%));
+}
+
+.video {
+  position: relative;
+  bottom: -200px;
+}
+
+.video:last-child {
+  margin-top: -200px;
+}
+
+.mb-30 {
+  margin-bottom: 30px;
+}
+
+.text-center {
+  text-align: center;
+}

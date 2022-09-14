@@ -66,3 +66,8 @@ h4 {
 p + p {
   padding-top: 0.9em;
 }
+
+a {
+  color: var(--dark);
+  text-decoration: none;
+}

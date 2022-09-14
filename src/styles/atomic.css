@@ -9,6 +9,7 @@
 .position-relative {
   position: relative;
 }
+
 .overflow-hidden {
   overflow: hidden;
 }
@@ -17,13 +18,21 @@
   justify-content: space-between;
 }
 
+.direction-column {
+  flex-direction: column;
+}
+
+.align-center {
+  align-items: center;
+}
+
 .primary-color {
   color: var(--primary);
 }
 
 .z-100 {
   z-index: 100;
-} 
+}
 
 .bg-light {
   background-color: var(--light);
@@ -35,6 +44,7 @@
 
 .bg-symbols::before {
   position: absolute;
+
   width: 100%;
   height: 100%;
 
