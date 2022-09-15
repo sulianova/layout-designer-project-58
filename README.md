@@ -4,6 +4,6 @@
 
 Одностраничный лендинг с использованием Flex. Один из проектов Hexlet на профессии: «Верстальщик».
 
-<p><a href="https://sulianova-layout-designer-project-58.surge.sh/" target="_blank">Ссылка на лендинг: Когнитивные искажения</a></p>
+<p><a href="https://sulianova-cognitive-baises.surge.sh/" target="_blank">Ссылка на лендинг: Когнитивные искажения</a></p>
 
 <img src="/src/images/cognitive-baises.png" alt="cognitive-baises">
