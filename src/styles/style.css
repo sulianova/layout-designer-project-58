@@ -22,7 +22,7 @@
 }
 
 .col-2 > * {
-  flex: 1 1 calc(50% - 15px);
+  flex: 1 1;
 }
 
 .col-3 {

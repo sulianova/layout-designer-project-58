@@ -1,7 +1,3 @@
-.form {
-  display: flex;
-}
-
 .form-input {
   flex: 1;
   height: 50px;
