@@ -20,8 +20,9 @@
 }
 
 .card > h3 {
-  color: var(--primary);
   padding-bottom: 16px;
+
+  color: var(--primary);
 }
 
 .card:hover,
